@@ -44,7 +44,6 @@ class _NewAppState extends State<NewApp> {
                     color: myColor,
                   ),
                 ),
-
                 Text(myNumber.toString(),
                   style: TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
                 ),

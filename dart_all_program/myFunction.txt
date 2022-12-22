@@ -1,0 +1,35 @@
+void main() {
+  
+  int number = myFunction2(23, 14);
+  
+  print(number);
+  
+    
+}
+
+// return_Type functin_name (parameter_list){
+  
+//   fuction_body/ fuction_work
+    
+//     return any_data; 
+// }
+
+void myFunction(int a, int b){
+ 
+ int c = a + b;
+ int d = a - b;
+  
+  print('Resust is: $c');
+  print(d);
+  
+}
+
+int myFunction2(int a, int b){
+  
+  int c = a + b;
+  
+  
+  return c;
+  
+  
+}
